@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4593f05d-0bb9-4fbf-bc91-9fabf78a3bc1" name="Changes" comment="Atividade balão">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Classes/Balao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classes/Balao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +45,7 @@
       <option name="presentableId" value="Default" />
       <updated>1685615703537</updated>
       <workItem from="1685615721745" duration="2670000" />
-      <workItem from="1686046631451" duration="2412000" />
+      <workItem from="1686046631451" duration="2593000" />
     </task>
     <task id="LOCAL-00001" summary="Atividade balão">
       <created>1685618424453</created>
@@ -62,7 +61,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686050302096</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Atividade balão">
+      <created>1686050772224</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1686050772224</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
