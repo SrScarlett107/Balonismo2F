@@ -9,9 +9,9 @@ public class Balao {
     public String cor;
     public String tipo;
     public int capacidade;
-    double altura;
-    String porte;
-    double peso;
+    public double altura;
+    public String porte;
+    public double peso;
 
     public String voar(){
         return "voando";

@@ -9,4 +9,11 @@ public class Pessoa {
     String AssinaturaTermo;
     String endereco;
 
+    Pessoa(String _nome){
+    this.nome = _nome;
+    }
+
+    public String Embarcado(){
+        return "Embarcado";
+    }
 }
