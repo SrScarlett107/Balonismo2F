@@ -11,7 +11,7 @@ public class Balao {
     private String porte;
     private double peso;
 
-    public void setId() {
+    public void setId(int id) {
         this.id = id;
     }
 
@@ -19,7 +19,7 @@ public class Balao {
         return id;
     }
 
-    public void setRegistro() {
+    public void setRegistro(String registro) {
         this.registro = registro;
     }
 
@@ -27,7 +27,7 @@ public class Balao {
         return registro;
     }
 
-    public void setCor() {
+    public void setCor(String cor) {
         this.cor = cor;
     }
 
@@ -35,7 +35,7 @@ public class Balao {
         return cor;
     }
 
-    public void setTipo() {
+    public void setTipo(String tipo) {
         this.tipo = tipo;
     }
 
@@ -43,7 +43,7 @@ public class Balao {
         return tipo;
     }
 
-    public void setCapacidade() {
+    public void setCapacidade(int capacidade) {
         this.capacidade = capacidade;
     }
 
@@ -51,7 +51,7 @@ public class Balao {
         return capacidade;
     }
 
-    public void setAltura() {
+    public void setAltura(double altura) {
         this.altura = altura;
     }
 
@@ -59,7 +59,7 @@ public class Balao {
         return altura;
     }
 
-    public void setPorte() {
+    public void setPorte(String porte) {
         this.porte = porte;
     }
 
@@ -67,7 +67,7 @@ public class Balao {
         return porte;
     }
 
-    public void setPeso() {
+    public void setPeso(double peso) {
         this.peso = peso;
     }
 

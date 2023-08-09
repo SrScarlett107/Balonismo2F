@@ -19,7 +19,7 @@ public class Piloto {
           return CPF;
      }
 
-     public void setRegistroAnac(String RG){
+     public void setRegistroAnac(int registroAnac){
           this.registroAnac = registroAnac;
      }
      public int getRegistroAnac(){
