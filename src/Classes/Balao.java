@@ -80,10 +80,17 @@ public class Balao {
         return "voando";
     }
 
-    public void registroBalao(){
+    public String registroBalao(){
         System.out.println("Digite o id, o registro, a cor, o tipo, a capacidade, a altura, o porte e o peso suportado pelo balão:");
         Scanner tcd = new Scanner(System.in);
         this.id = tcd.nextInt();
-        
+        this.registro = tcd.next();
+        this.cor= tcd.next();
+        this.tipo = tcd.next();
+        this.capacidade = tcd.nextInt();
+        this.altura = tcd.nextDouble();
+        this.porte = tcd.next();
+        this.peso = tcd.nextDouble();
+        return  "";
     }
 }
