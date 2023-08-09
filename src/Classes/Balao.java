@@ -1,5 +1,6 @@
 package Classes;
 
+import java.util.Scanner;
 public class Balao {
 
     private int id;
@@ -77,5 +78,12 @@ public class Balao {
 
     public String voar(){
         return "voando";
+    }
+
+    public void registroBalao(){
+        System.out.println("Digite o id, o registro, a cor, o tipo, a capacidade, a altura, o porte e o peso suportado pelo balão:");
+        Scanner tcd = new Scanner(System.in);
+        this.id = tcd.nextInt();
+        
     }
 }
