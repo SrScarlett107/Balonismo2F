@@ -1,8 +1,10 @@
 package Classes;
 
+import java.util.Scanner;
+
 public class Pessoa {
     private String nome;
-    private String CPF;
+    private int CPF;
     private String RG;
     private int telefone;
     private int emergencia;
@@ -17,10 +19,10 @@ public class Pessoa {
         return nome;
     }
 
-    public void setCPF(String CPF){
+    public void setCPF(int CPF){
         this.CPF = CPF;
     }
-    public String getCPF(){
+    public int getCPF(){
         return CPF;
     }
 
@@ -58,7 +60,17 @@ public class Pessoa {
     public String getEndereco(){
         return endereco;
     }
-
+public void registroPessoa(){
+        System.out.println("Digite o id, o registro, a cor, o tipo, a capacidade, a altura, o porte e o peso suportado pelo balão:");
+        Scanner tcd = new Scanner(System.in);
+        this.nome = tcd.next();
+        this.CPF = tcd.nextInt();
+        this.RG = tcd.next();
+        this.telefone = tcd.nextInt();
+        this.emergencia = tcd.nextInt();
+        this.assinaturaTermo = tcd.next();
+        this.endereco = tcd.next();
+    }
 
     public String Embarcado(){
         return "Embarcado";

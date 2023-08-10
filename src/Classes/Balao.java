@@ -92,4 +92,16 @@ public class Balao {
         this.porte = tcd.next();
         this.peso = tcd.nextDouble();
     }
-}
+        public void registradoBalao(){
+        System.out.println("Balão já registrado");
+        this.id = 254554;
+        this.registro = "sfsdf";
+        this.cor = "azul";
+        this.tipo = "comum";
+        this.capacidade = 5;
+        this.altura = 100.00;
+        this.porte = "grande";
+        this.peso = 110.00;
+    }
+    }
+
