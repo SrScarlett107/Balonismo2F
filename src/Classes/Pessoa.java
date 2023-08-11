@@ -70,8 +70,24 @@ public void registroPessoa(){
         this.emergencia = tcd.nextInt();
         this.assinaturaTermo = tcd.next();
         this.endereco = tcd.next();
+         System.out.println("Nome: " + this.nome + " CPF: " + this.CPF + " RG: " + this.RG + " Telefone: " + this.telefone + " Telefone de emergencia: " + this.emergencia
+         + " Assinatura dos termos: " + this.assinaturaTermo + " Endereço: " + this.endereco);
     }
 
+
+    public void registradoPessoa(){
+        System.out.println("Pessoa registrada");
+        this.nome = "Akechi";
+        this.CPF = 4654655;
+        this.RG = "564654564";
+        this.telefone = 1199449494;
+        this.emergencia = 119595595;
+        this.assinaturaTermo = "gggdfdggd";
+        this.endereco = "rua da graça 3345";
+
+        System.out.println("Nome: " + this.nome + " CPF: " + this.CPF + " RG: " + this.RG + " Telefone: " + this.telefone + " Telefone de emergencia: " + this.emergencia
+         + " Assinatura dos termos: " + this.assinaturaTermo + " Endereço: " + this.endereco);
+    }
     public String Embarcado(){
         return "Embarcado";
     }

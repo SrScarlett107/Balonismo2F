@@ -37,7 +37,15 @@ public class Piloto {
         Scanner tcd = new Scanner(System.in);
         this.nome = tcd.next();
         this.CPF = tcd.nextInt();
-        this.registroAnac= tcd.nextInt();
-    
+        this.registroAnac = tcd.nextInt();
+        System.out.println("Nome do piloto: " + this.nome + " CPF do piloto: " + this.CPF + " Registro ANAC do piloto: " + this.registroAnac);
+    }
+
+     public void registradoPiloto(){
+        System.out.println("Piloto registrado");
+        this.nome = "Barão Vermelho";
+        this.CPF = 54654654;
+        this.registroAnac = 798546;
+        System.out.println("Nome do piloto: " + this.nome + " CPF do piloto: " + this.CPF + " Registro ANAC do piloto: " + this.registroAnac);
     }
 }

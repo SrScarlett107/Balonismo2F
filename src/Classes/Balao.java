@@ -91,7 +91,10 @@ public class Balao {
         this.altura = tcd.nextDouble();
         this.porte = tcd.next();
         this.peso = tcd.nextDouble();
+        System.out.println("id: " + this.id + " Registro: " + this.registro + " Cor: " + this.cor + " Tipo: " + this.tipo + " Capacidade Máxima: " + this.capacidade
+         + " Altura Máxima: " + this.altura + " Porte: " + this.porte + " Peso Máximo: " + this.peso );
     }
+
         public void registradoBalao(){
         System.out.println("Balão já registrado");
         this.id = 254554;
@@ -102,6 +105,8 @@ public class Balao {
         this.altura = 100.00;
         this.porte = "grande";
         this.peso = 110.00;
+         System.out.println("id: " + this.id + " Registro: " + this.registro + " Cor: " + this.cor + " Tipo: " + this.tipo + " Capacidade Máxima: " + this.capacidade
+         + " Altura Máxima: " + this.altura + " Porte: " + this.porte + " Peso Máximo: " + this.peso );
     }
     }
 
